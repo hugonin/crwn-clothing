@@ -14,4 +14,5 @@ export const store = createStore(rootReducer, applyMiddleware(...middlewares));
 
 export const persistor = persistStore(store);
 
-//export default { store, persistor };
+// eslint-disable-next-line import/no-anonymous-default-export
+export default { store, persistStore };
